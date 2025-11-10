@@ -48,7 +48,8 @@ func main(){
 		"tu nombre es " + persona.Nombre, "y tu edad es " + edad_to_string, 
 	);
 
-	
+	// convertir tios automaticamente con Go
+	fmt.Printf("Tu nombre es %s y tu edad es %d\n", persona.Nombre, persona.Edad)
 
 //Tipos de datos
 //int, int64, int32 | entero | siempre se use int a menos que se requiera control sobre el tamaño
@@ -58,6 +59,6 @@ func main(){
 //string |"cadena de caracteres"
 //byte | === unit8 | se usa para datos binarios
 //rune | === int32 | se usa para representar un sol ocaracter que ocupa más de 1 byte
-//complex64, complex128 | cuando tiene una parte real y una imaginaria 
+//complex6, complex128 | cuando tiene una parte real y una imaginaria 
 
 }
