@@ -4,6 +4,9 @@ import "fmt"
 
 func main(){
 	fmt.Println("hola")
+
+	var entero int = 10 
+	entero1 := 10 
 }
 
 //Tipos de datos
