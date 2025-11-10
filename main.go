@@ -24,8 +24,9 @@ func main(){
 	fmt.Print(esVerdadero)
 
 	//Arrays
-	arrayFijo := []
-}
+	arrayFijo := [2]int{1,2} //el primer [] dice cuantos datos va a tener el array
+	sliceVariable :=  []int{3,2,1,23,} // con slice se puede escribir sin limitante en el arreglo
+	sliceVariable = append(sliceVariable, 55) //agrega datos al array 
 
 //Tipos de datos
 //int, int64, int32 | entero | siempre se use int a menos que se requiera control sobre el tamaño
