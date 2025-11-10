@@ -37,6 +37,12 @@ func main(){
 	}
 	fmt.Println(diccionario)
 
+	//Structs
+	type Person struct{
+		Nombre string
+		Edad int
+	}
+	
 //Tipos de datos
 //int, int64, int32 | entero | siempre se use int a menos que se requiera control sobre el tamaño
 //float32, float64 | se usa para representar valores numericos reales(decimales) | 32 o 64 va asociado a la arquitectura del sistema
