@@ -38,11 +38,18 @@ func main(){
 	fmt.Println(diccionario)
 
 	//Structs
-	type Person struct{
+	type Person struct { //Si inicia con mayuscula significa que se va a exportar, si esta en minuscula, esolo espara ese archivo 
 		Nombre string
 		Edad int
 	}
+	persona := Person{Nombre : "Cesar", Edad : 23}
+	edad_to_string:= strconv.Itoa(persona.Edad)
+	fmt.Println(
+		"tu nombre es " + persona.Nombre, "y tu edad es " + edad_to_string, 
+	);
+
 	
+
 //Tipos de datos
 //int, int64, int32 | entero | siempre se use int a menos que se requiera control sobre el tamaño
 //float32, float64 | se usa para representar valores numericos reales(decimales) | 32 o 64 va asociado a la arquitectura del sistema
