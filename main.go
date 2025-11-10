@@ -1,15 +1,23 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strconv"
+)
 
 func main(){
 	fmt.Println("hola")
-
+	//Numeros
 	var entero int = 10 
 	entero1 := 10 
 	decimal := 3.24
 	suma := entero + int(decimal) + entero1
 	fmt.Print(suma)
+	//String
+	mensaje := "hola, tu edad es"
+	edad := strconv.Itoa(suma)
+	concatenado := mensaje + edad 
+	fmt.Print(concatenado)
 }
 
 //Tipos de datos
