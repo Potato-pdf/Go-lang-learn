@@ -18,6 +18,13 @@ func main(){
 	edad := strconv.Itoa(suma)
 	concatenado := mensaje + edad 
 	fmt.Print(concatenado)
+
+	//Booleans
+	esVerdadero:= true
+	fmt.Print(esVerdadero)
+
+	//Arrays
+	arrayFijo := []
 }
 
 //Tipos de datos
