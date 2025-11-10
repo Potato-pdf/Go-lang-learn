@@ -48,7 +48,7 @@ func main(){
 		"tu nombre es " + persona.Nombre, "y tu edad es " + edad_to_string, 
 	);
 
-	// convertir tios automaticamente con Go
+	// convertir tipos automaticamente con Go
 	fmt.Printf("Tu nombre es %s y tu edad es %d\n", persona.Nombre, persona.Edad)
 
 //Tipos de datos
