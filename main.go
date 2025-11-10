@@ -7,6 +7,8 @@ func main(){
 
 	var entero int = 10 
 	entero1 := 10 
+	decimal := 3.24
+	
 }
 
 //Tipos de datos
