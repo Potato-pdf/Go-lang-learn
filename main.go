@@ -8,7 +8,8 @@ func main(){
 	var entero int = 10 
 	entero1 := 10 
 	decimal := 3.24
-	
+	suma := entero + int(decimal) + entero1
+	fmt.Print(suma)
 }
 
 //Tipos de datos
