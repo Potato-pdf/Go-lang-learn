@@ -30,4 +30,7 @@ func main(){
 	Incrementar(&valor)
 	fmt.Println(valor)
 
+
+	puntero := new(int) //puntero iniciado en 0
+	fmt.Println(puntero)
 }
