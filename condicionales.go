@@ -18,3 +18,10 @@ func Condicional(){
 	if edad < 18{
 		fmt.Println("Eres menor de edad")
 	}
+	
+	//Bucle classico
+	for i := 0; i < 5 ; i ++{
+		fmt.Printf("Iteracion: %d\nk", i)
+	}
+
+}
