@@ -2,6 +2,9 @@ package main
 
 import "fmt"
 
+func ImprimiArea(f Forma) {
+	fmt.Printf("El area es: %.2f \n", f.Area())
+}
 
 func main(){
 	suma:= Suma(3,4)
@@ -33,4 +36,9 @@ func main(){
 
 	puntero := new(int) //puntero iniciado en 0
 	fmt.Println(puntero)
+	
+	c:= Circle{Radio: 5}
+	ImprimiArea(c)
 }
+
+
