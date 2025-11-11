@@ -14,4 +14,6 @@ func main(){
 	}
 
 	fmt.Println(cociente)
+
+	VaribleDeArgumntos()
 }

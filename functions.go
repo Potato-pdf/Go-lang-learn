@@ -2,6 +2,7 @@ package main
 
 import (
 	"errors"
+	"fmt"
 )
 
 func Suma(a int, b int ) int {	
@@ -14,4 +15,11 @@ func Division(a,b float64)(float64, error){
 	}
 	cociente := a/b
 	return cociente, nil
+}
+
+func VaribleDeArgumntos(nombres ...string){
+	for _, nombre := range nombres {
+		fmt.Println(nombre)
+	}
+
 }
