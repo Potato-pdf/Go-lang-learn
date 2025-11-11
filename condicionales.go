@@ -14,3 +14,7 @@ func Condicional(){
 	}else {
 		fmt.Println("Eres menor de edad")
 	}
+	//Asertive/negative programing
+	if edad < 18{
+		fmt.Println("Eres menor de edad")
+	}
