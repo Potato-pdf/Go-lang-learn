@@ -31,4 +31,16 @@ func Condicional(){
 		n++
 	}
 
+	//bucle infinito
+	for {
+		n ++
+		if n ==5 {
+			continue
+		}
+		fmt.Printf("n en bucle: %d\n", n)
+			if n >= 7 {
+		break
+	}
+	}
+
 }
