@@ -7,7 +7,7 @@ func main(){
 	suma:= Suma(3,4)
 	fmt.Println(suma)
 
-	error, cociente:=  Division(9,0)
+	cociente, error:=  Division(9,0)
 	if error != nil {
 		fmt.Println(error)
 		return
