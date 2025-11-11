@@ -39,7 +39,7 @@ func Condicional(){
 		}
 		fmt.Printf("n en bucle: %d\n", n)
 			if n >= 7 {
-		continue 
+		break
 	}
 	}
 
