@@ -1,8 +1,17 @@
 package main
 
+import "fmt"
+
 
 func main(){
-	
-	Condicional()
+	suma:= Suma(3,4)
+	fmt.Println(suma)
 
+	error, cociente:=  Division(9,0)
+	if error != nil {
+		fmt.Println(error)
+		return
+	}
+
+	fmt.Println(cociente)
 }
