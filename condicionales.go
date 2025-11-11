@@ -43,4 +43,10 @@ func Condicional(){
 	}
 	}
 
+	//Range
+	slice := []string{"2","4","5"}
+	for index, value := range slice {
+		fmt.Printf("Indice: %d, valor : %s\n", index, value)
+	}
+
 }
