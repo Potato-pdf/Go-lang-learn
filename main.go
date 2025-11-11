@@ -7,7 +7,7 @@ func main(){
 	suma:= Suma(3,4)
 	fmt.Println(suma)
 
-	cociente, error:=  Division(9,0)
+	cociente, error:=  Division(9,9)
 	if error != nil {
 		fmt.Println(error)
 		return
@@ -16,4 +16,11 @@ func main(){
 	fmt.Println(cociente)
 
 	VaribleDeArgumntos()
+
+	cont := Closure()
+	fmt.Println(cont())
+	fmt.Println(cont())
+	fmt.Println(cont())
+	fmt.Println(cont())
+
 }
