@@ -26,4 +26,8 @@ func main(){
 	rect := Rectangle{Ancho: 10, ALto: 69}
 	fmt.Println("Area del rectangulo:", rect.Area())
 
+	valor := 10
+	Incrementar(&valor)
+	fmt.Println(valor)
+
 }
