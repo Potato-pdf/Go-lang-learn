@@ -23,4 +23,7 @@ func main(){
 	fmt.Println(cont())
 	fmt.Println(cont())
 
+	rect := Rectangle{Ancho: 10, ALto: 69}
+	fmt.Println("Area del rectangulo:", rect.Area())
+
 }
