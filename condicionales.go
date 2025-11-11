@@ -39,7 +39,7 @@ func Condicional(){
 		}
 		fmt.Printf("n en bucle: %d\n", n)
 			if n >= 7 {
-		break
+		continue 
 	}
 	}
 
@@ -48,7 +48,6 @@ func Condicional(){
 	for index, value := range slice {
 		fmt.Printf("Indice: %d, valor : %s\n", index, value)
 	}
-
 	//switch
 	valor := 2
 	switch valor{
