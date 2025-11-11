@@ -49,4 +49,15 @@ func Condicional(){
 		fmt.Printf("Indice: %d, valor : %s\n", index, value)
 	}
 
+	//switch
+	valor := 2
+	switch valor{
+	case 1:
+		fmt.Println("Es 1 ")
+	
+	case 2:
+		fmt.Println("Es 2")
+	default:
+		fmt.Println("No es ni uno ni 2")
+	}
 }
