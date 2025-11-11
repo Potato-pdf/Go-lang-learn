@@ -21,5 +21,12 @@ func VaribleDeArgumntos(nombres ...string){
 	for _, nombre := range nombres {
 		fmt.Println(nombre)
 	}
+}
 
+func Closure() func() int{
+	c := 0
+	return func () int {
+		c ++ 
+		return c
+	}
 }
