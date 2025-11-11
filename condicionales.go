@@ -24,4 +24,11 @@ func Condicional(){
 		fmt.Printf("Iteracion: %d\nk", i)
 	}
 
+	//BUcle tupo while
+	n := 0
+	for n < 3 {
+		fmt.Printf("Iteracion : %d\n", n)
+		n++
+	}
+
 }
