@@ -60,5 +60,6 @@ func main(){
 //byte | === unit8 | se usa para datos binarios
 //rune | === int32 | se usa para representar un sol ocaracter que ocupa más de 1 byte
 //complex6, complex128 | cuando tiene una parte real y una imaginaria 
-
+	Condicional()
+	
 }
