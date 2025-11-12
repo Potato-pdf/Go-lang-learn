@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"learning-go/domain"
 	"sync"
 	"time"
 )
@@ -85,5 +86,7 @@ func main(){
 		}(i)		
 	}
 	time.Sleep(2* time.Second)
+
+	domain.App()
 }
 
