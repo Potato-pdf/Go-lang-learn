@@ -39,6 +39,24 @@ func main(){
 	
 	c:= Circle{Radio: 5}
 	ImprimiArea(c)
+
+	canal := make(chan string)
+
+	go DecirHola(canal)
+	IMprimirMensaje(canal)
+
+	canal2 := make(chan int)
+	go func(){
+		for i := 0; i < 10; i++ {
+			canal2 <- i
+		}
+		close(canal2)
+	}()
+
+	for valor := range canal2 {
+		fmt.Println(valor)
+	}
+	
 }
 
 

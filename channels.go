@@ -9,9 +9,9 @@ import (
 //GoRutine -> es un hilo de ejecucion virtual
 //Chanell -> comuicacion entre GoRUtines
 
-func DecirHola(canal1 chan <- string){
+func DecirHola(canal chan <- string){
 	time.Sleep(2 * time.Second)
-	canal1 <- "Hola Mundo"
+	canal <- "Hola Mundo"
 }
 
 func IMprimirMensaje(canal <- chan string){
