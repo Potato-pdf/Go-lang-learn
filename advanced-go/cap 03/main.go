@@ -14,7 +14,7 @@ func tarea(id int, canal chan <- string){
 	mu.Lock()
 	completadas ++
 	mu.Unlock()
-	canal<-fmt.Sprintf("tarea %d completaa", id )
+	canal<-fmt.Sprintf("tarea %d completada", id )
 }
 
 func main() {
