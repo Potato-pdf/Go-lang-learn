@@ -7,9 +7,9 @@ import (
 )
 
 func CreateUsers(c *fiber.Ctx) error {
-	user := users.User{
-		Firstname: "Cesar",
-		Lastname : "Bernal",
+	user := users.User{}
+	if err := c.BodyParser(&user); err !=nil{
+		return  err
 	}
-	return c.Status(fiber.StatusOK).JSON(user)
+	return c.Status(fiber.StatusCreated).JSON(user)
 }
